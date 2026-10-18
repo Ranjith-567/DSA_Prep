@@ -1,0 +1,9 @@
+function removeDuplicates(arr){
+    return [...new Set(arr)];
+}
+console.log(removeDuplicates([1, 2, 3, 2, 1])); // Output: [1, 2, 3]
+
+
+// A Set is a built-in JavaScript object that allows you to store unique values of any type. 
+// By converting the array to a Set and then back to an array using the spread operator, 
+// we can easily remove duplicates from the original array.
