@@ -1,0 +1,10 @@
+function findSmallest(arr) {
+  let SmallEle = arr[0];
+  for (let num of arr) {
+    if (num < SmallEle) {
+      SmallEle = num;
+    }
+  }
+  return SmallEle;
+}
+console.log(findSmallest([3, 9, 5, 6, 8, 4, 7]));

@@ -1,0 +1,12 @@
+// function checkEvenOdd(n){
+//     if(n%2 == 0){
+//         console.log("The given number is even")
+//     }else{
+//         console.log("The given number is odd")
+//     }
+// }
+
+function checkEvenOdd(n) {
+  return n % 2 == 0 ? "even" : "odd";
+}
+console.log(checkEvenOdd(7));

@@ -1,0 +1,10 @@
+function findLargest(arr) {
+  let largestEle = arr[0];
+  for (let i = 1; i <= arr.length; i++) {
+    if (arr[i] > largestEle) {
+      largestEle = arr[i];
+    }
+  }
+  return largestEle;
+}
+console.log(findLargest([3, 9, 1, 5, 6, 8, 2, 4, 7]));
